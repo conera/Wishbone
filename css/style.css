@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0; }
@@ -203,26 +206,26 @@ header .navbar-light .navbar-nav .nav-item {
 .swirling_staircase {
   background-image: url("../images/bg_4.jpg"); }
 
-.feature {
+.featured {
   background-color: #F7F7F7;
   padding: 100px 0; }
-  .feature h3 {
+  .featured h3 {
     font-weight: 400;
     font-size: 39px;
     line-height: 42px;
     color: #1B1A1A;
     margin-bottom: 13px; }
-  .feature h4 {
+  .featured h4 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
     color: #645C55;
     margin-bottom: 42px; }
-  .feature div:nth-child(2) .project {
+  .featured div:nth-child(2) .project {
     position: relative;
     overflow: hidden; }
-    .feature div:nth-child(2) .project .heading_cover {
+    .featured div:nth-child(2) .project .heading_cover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -232,7 +235,7 @@ header .navbar-light .navbar-nav .nav-item {
       padding-top: 40px;
       padding-left: 40px;
       transition: 0.4s; }
-    .feature div:nth-child(2) .project .read {
+    .featured div:nth-child(2) .project .read {
       padding: 11px 20px;
       color: #FFFFFF;
       background-color: #1B1A1A;
@@ -243,25 +246,25 @@ header .navbar-light .navbar-nav .nav-item {
       left: 40px;
       z-index: 3;
       transition: 0.4s; }
-    .feature div:nth-child(2) .project:hover .heading_cover {
+    .featured div:nth-child(2) .project:hover .heading_cover {
       top: 0; }
-    .feature div:nth-child(2) .project:hover .read {
+    .featured div:nth-child(2) .project:hover .read {
       bottom: 40px; }
-  .feature div h6 {
+  .featured div h6 {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #645C55; }
-  .feature div h5 {
+  .featured div h5 {
     font-weight: 400;
     font-size: 23px;
     line-height: 30px;
     color: #403E3B; }
-  .feature div:nth-child(4) {
+  .featured div:nth-child(4) {
     margin-top: 40px; }
-    .feature div:nth-child(4) a {
+    .featured div:nth-child(4) a {
       text-decoration: none;
       font-weight: 400;
       font-size: 16px;
@@ -270,7 +273,7 @@ header .navbar-light .navbar-nav .nav-item {
       letter-spacing: 0.4px;
       color: #1B1A1A;
       transition: 0.2s; }
-      .feature div:nth-child(4) a:hover {
+      .featured div:nth-child(4) a:hover {
         color: #625D5D; }
 
 .our_team {
