@@ -76,12 +76,15 @@ header .navbar-light .navbar-nav .nav-item {
 
 .our_firm {
   padding: 100px 0; }
-  .our_firm div:nth-child(4) p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #403E3B; }
+  .our_firm p {
+    margin-bottom: 10px; }
+
+div:nth-child(4) p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #403E3B; }
 
 .Reeding_House, .marble_staircase, .swirling_staircase {
   background-image: url("../images/BG_2.jpg");
@@ -356,5 +359,271 @@ header .navbar-light .navbar-nav .nav-item {
       margin-left: 0; }
     .footer div:nth-child(2) img:nth-child(3) {
       margin-right: 0; }
+
+@media only screen and (max-width: 768px) {
+  header .navbar-light .navbar-nav .nav-item {
+    margin: 0;
+    margin-bottom: 5px; }
+    header .navbar-light .navbar-nav .nav-item .nav-link {
+      font-size: 20px; }
+
+  .main_banner {
+    padding: 25px 0 0; }
+    .main_banner h4 {
+      text-align: center; }
+    .main_banner .header_edit {
+      margin-bottom: 20px; }
+      .main_banner .header_edit p {
+        margin-bottom: 15px; }
+      .main_banner .header_edit h1 {
+        font-size: 46px;
+        line-height: 55px; }
+      .main_banner .header_edit a {
+        margin-left: 0; }
+
+  .our_firm {
+    padding: 70px 0; }
+    .our_firm h3 {
+      margin-bottom: 10px; }
+
+  .Reeding_House, .marble_staircase, .swirling_staircase {
+    background-position: -420px; }
+
+  .our_process .margins_process div:nth-child(2) {
+    margin-bottom: 30px; }
+  .our_process .margins_process div:nth-child(3) {
+    margin-bottom: 30px; }
+
+  .Happy_customers p {
+    margin-bottom: 30px; }
+
+  .featured div:nth-child(1) {
+    justify-content: center;
+    text-align: center; }
+  .featured .pictures_marg div:nth-child(1) {
+    margin-bottom: 20px; }
+  .featured .pictures_marg div:nth-child(2) {
+    margin-bottom: 20px; }
+
+  .our_team {
+    padding: 75px 0; }
+    .our_team .row div:nth-child(1) {
+      margin-bottom: 20px; }
+      .our_team .row div:nth-child(1) a {
+        margin: 0; }
+    .our_team .row div:nth-child(2) div:nth-child(3) {
+      margin-bottom: 20px; }
+
+  .get_in_touch .row div:first-child {
+    text-align: center; }
+    .get_in_touch .row div:first-child h3 {
+      font-size: 30px;
+      margin-bottom: 10px; }
+  .get_in_touch .row div:nth-child(2) {
+    text-align: center; }
+
+  .footer p {
+    align-items: center; }
+  .footer .row div:first-child {
+    margin-bottom: 25px;
+    text-align: center; } }
+@media only screen and (max-width: 420px) {
+  header .navbar-light .navbar-nav .nav-item {
+    margin: 0;
+    margin-bottom: 5px; }
+    header .navbar-light .navbar-nav .nav-item .nav-link {
+      font-size: 20px; }
+
+  .main_banner {
+    padding: 25px 0 0; }
+    .main_banner h4 {
+      text-align: center; }
+    .main_banner .header_edit {
+      margin-bottom: 20px; }
+      .main_banner .header_edit p {
+        margin-bottom: 15px; }
+      .main_banner .header_edit h1 {
+        font-size: 46px;
+        line-height: 55px; }
+      .main_banner .header_edit a {
+        margin-left: 0; }
+
+  .our_firm {
+    padding: 70px 0; }
+    .our_firm h3 {
+      margin-bottom: 10px; }
+
+  .Reeding_House, .marble_staircase, .swirling_staircase {
+    background-position: -420px; }
+
+  .our_process .margins_process div:nth-child(2) {
+    margin-bottom: 30px; }
+  .our_process .margins_process div:nth-child(3) {
+    margin-bottom: 30px; }
+
+  .Happy_customers p {
+    margin-bottom: 30px; }
+
+  .featured div:nth-child(1) {
+    text-align: center; }
+  .featured .pictures_marg div:nth-child(1) {
+    margin-bottom: 20px; }
+  .featured .pictures_marg div:nth-child(2) {
+    margin-bottom: 20px; }
+
+  .our_team {
+    padding: 75px 0; }
+    .our_team .row div:nth-child(1) {
+      margin-bottom: 20px; }
+      .our_team .row div:nth-child(1) a {
+        margin: 0; }
+    .our_team .row div:nth-child(2) div:nth-child(3) {
+      margin-bottom: 20px; }
+
+  .get_in_touch .row div:first-child {
+    text-align: center; }
+    .get_in_touch .row div:first-child h3 {
+      font-size: 30px;
+      margin-bottom: 10px; }
+  .get_in_touch .row div:nth-child(2) {
+    text-align: center; }
+
+  .footer p {
+    align-items: center; }
+  .footer .row div:first-child {
+    margin-bottom: 25px;
+    text-align: center; } }
+@media only screen and (max-width: 375px) {
+  header .navbar-light .navbar-nav .nav-item {
+    margin: 0;
+    margin-bottom: 5px; }
+    header .navbar-light .navbar-nav .nav-item .nav-link {
+      font-size: 20px; }
+
+  .main_banner {
+    padding: 25px 0 0; }
+    .main_banner h4 {
+      text-align: center; }
+    .main_banner .header_edit {
+      margin-bottom: 20px; }
+      .main_banner .header_edit p {
+        margin-bottom: 15px; }
+      .main_banner .header_edit h1 {
+        font-size: 46px;
+        line-height: 55px; }
+      .main_banner .header_edit a {
+        margin-left: 0; }
+
+  .our_firm {
+    padding: 70px 0; }
+    .our_firm h3 {
+      margin-bottom: 10px; }
+
+  .Reeding_House, .marble_staircase, .swirling_staircase {
+    background-position: -420px; }
+
+  .our_process .margins_process div:nth-child(2) {
+    margin-bottom: 30px; }
+  .our_process .margins_process div:nth-child(3) {
+    margin-bottom: 30px; }
+
+  .Happy_customers p {
+    margin-bottom: 30px; }
+
+  .featured div:nth-child(1) {
+    text-align: center; }
+  .featured .pictures_marg div:nth-child(1) {
+    margin-bottom: 20px; }
+  .featured .pictures_marg div:nth-child(2) {
+    margin-bottom: 20px; }
+
+  .our_team {
+    padding: 75px 0; }
+    .our_team .row div:nth-child(1) {
+      margin-bottom: 20px; }
+      .our_team .row div:nth-child(1) a {
+        margin: 0; }
+    .our_team .row div:nth-child(2) div:nth-child(3) {
+      margin-bottom: 20px; }
+
+  .get_in_touch .row div:first-child {
+    text-align: center; }
+    .get_in_touch .row div:first-child h3 {
+      font-size: 30px;
+      margin-bottom: 10px; }
+  .get_in_touch .row div:nth-child(2) {
+    text-align: center; }
+
+  .footer p {
+    align-items: center; }
+  .footer .row div:first-child {
+    margin-bottom: 25px;
+    text-align: center; } }
+@media only screen and (max-width: 320px) {
+  header .navbar-light .navbar-nav .nav-item {
+    margin: 0;
+    margin-bottom: 5px; }
+    header .navbar-light .navbar-nav .nav-item .nav-link {
+      font-size: 20px; }
+
+  .main_banner {
+    padding: 25px 0 0; }
+    .main_banner h4 {
+      text-align: center; }
+    .main_banner .header_edit {
+      margin-bottom: 20px; }
+      .main_banner .header_edit p {
+        margin-bottom: 15px; }
+      .main_banner .header_edit h1 {
+        font-size: 46px;
+        line-height: 55px; }
+      .main_banner .header_edit a {
+        margin-left: 0; }
+
+  .our_firm {
+    padding: 70px 0; }
+    .our_firm h3 {
+      margin-bottom: 10px; }
+
+  .Reeding_House, .marble_staircase, .swirling_staircase {
+    background-position: -420px; }
+
+  .our_process .margins_process div:nth-child(2) {
+    margin-bottom: 30px; }
+  .our_process .margins_process div:nth-child(3) {
+    margin-bottom: 30px; }
+
+  .Happy_customers p {
+    margin-bottom: 30px; }
+
+  .featured div:nth-child(1) {
+    text-align: center; }
+  .featured .pictures_marg div:nth-child(1) {
+    margin-bottom: 20px; }
+  .featured .pictures_marg div:nth-child(2) {
+    margin-bottom: 20px; }
+
+  .our_team {
+    padding: 75px 0; }
+    .our_team .row div:nth-child(1) {
+      margin-bottom: 20px; }
+      .our_team .row div:nth-child(1) a {
+        margin: 0; }
+    .our_team .row div:nth-child(2) div:nth-child(3) {
+      margin-bottom: 20px; }
+
+  .get_in_touch .row div:first-child {
+    text-align: center; }
+    .get_in_touch .row div:first-child h3 {
+      font-size: 30px;
+      margin-bottom: 10px; }
+  .get_in_touch .row div:nth-child(2) {
+    text-align: center; }
+
+  .footer p {
+    align-items: center; }
+  .footer .row div:first-child {
+    margin-bottom: 25px;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
